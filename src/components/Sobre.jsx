@@ -43,7 +43,7 @@ export default function Sobre() {
                     <p className="text-base sm:text-lg leading-8 text-[#5c4b73] mb-6">
                         A reabilitação neuropsicológica auxilia pacientes
                         na retomada da funcionalidade, autonomia e qualidade
-                        de vida após alterações cognitivas e neurológicas.
+                        de vida.
                     </p>
 
                     <p className="text-base sm:text-lg leading-8 text-[#5c4b73]">
@@ -100,7 +100,6 @@ export default function Sobre() {
                             <li>• Lesão encefálica</li>
                             <li>• Lesão medular</li>
                             <li>• Alzheimer</li>
-                            <li>• Parkinson</li>
                             <li>• Câncer</li>
                             <li>• Outras doenças crônicas</li>
 

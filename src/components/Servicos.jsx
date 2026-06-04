@@ -15,7 +15,7 @@ export default function Servicos() {
                     </p>
 
                     <h2 className="text-4xl font-light text-[#3b2a52]">
-                        Áreas de atendimento
+                        Endereço de atendimento
                     </h2>
 
                 </div>
@@ -64,8 +64,8 @@ export default function Servicos() {
                         </h3>
 
                         <p className="text-[#5c4b73] leading-8">
-                            Estratégias terapêuticas para auxiliar funções cognitivas,
-                            emocionais e adaptação às dificuldades do dia a dia.
+                            Estratégias terapêuticas para reabilitar funções cognitivas,
+                            desenvolver autonomia e fortalecer a participação social.
                         </p>
 
                     </div>

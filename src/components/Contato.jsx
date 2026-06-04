@@ -33,11 +33,7 @@ export default function Contato() {
                         <p className="mb-6">
                             <strong>1.</strong> Rua Domingos de Morais, 2781 – Vila Mariana
                             <br />
-                            (Próximo ao metrô Santa Cruz)
-                        </p>
-
-                        <p className="mb-10">
-                            <strong>2.</strong> Avenida Antártica, 675 – Perdizes
+                            (230m do metrô Santa Cruz)
                         </p>
 
                         <h3 className="text-2xl font-medium text-[#3b2a52] mb-6">
