@@ -1,4 +1,5 @@
 import { FiMail, FiPhone } from "react-icons/fi"
+
 export default function Contato() {
     return (
         <section

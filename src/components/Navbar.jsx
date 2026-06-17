@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
+
+const whatsappLink = "https://api.whatsapp.com/send?phone=5511939273250&text=Olá,%20gostaria%20de%20agendar%20uma%20consulta.%20Poderia%20me%20passar%20mais%20informações?";
+
 
 export default function Navbar() {
     const [menuAberto, setMenuAberto] = useState(false);
@@ -52,7 +56,7 @@ export default function Navbar() {
                     </a>
 
                     <a
-                        href="https://api.whatsapp.com/send?phone=5511939273250&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20atendimento."
+                        href={whatsappLink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-[#b388ff] hover:bg-[#9b6dff] text-white px-5 py-2 rounded-full transition"

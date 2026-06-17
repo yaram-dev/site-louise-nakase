@@ -1,3 +1,8 @@
+import { motion } from "framer-motion";
+
+const whatsappLink = "https://api.whatsapp.com/send?phone=5511939273250&text=Olá,%20gostaria%20de%20agendar%20uma%20consulta.%20Poderia%20me%20passar%20mais%20informações?";
+
+
 export default function Servicos() {
     return (
         <section
@@ -15,7 +20,7 @@ export default function Servicos() {
                     </p>
 
                     <h2 className="text-4xl font-light text-[#3b2a52]">
-                        Endereço de atendimento
+                        Áreas de atuação
                     </h2>
 
                 </div>
@@ -122,7 +127,7 @@ export default function Servicos() {
 
             <div className="mt-6 text-center">
                 <a
-                    href="https://api.whatsapp.com/send?phone=5511939273250&text=Olá,%20gostaria%20de%20agendar%20uma%20consulta.%20Poderia%20me%20passar%20mais%20informações?"
+                    href={whatsappLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#b388ff] hover:bg-[#9b6dff] transition text-white px-8 py-4 rounded-full"

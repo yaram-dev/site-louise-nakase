@@ -5,7 +5,7 @@ export default function Footer() {
             <div className="max-w-5xl mx-auto text-center">
 
                 <p className="text-xs sm:text-sm">
-                    © 2026 Psicóloga Louise Nakase. Todos os direitos reservados.
+                    © {new Date().getFullYear()} Psicóloga Louise Nakase. Todos os direitos reservados.
                 </p>
 
             </div>

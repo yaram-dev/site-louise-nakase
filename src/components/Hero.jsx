@@ -1,6 +1,10 @@
 import { motion } from "framer-motion";
 
+
+const whatsappLink = "https://api.whatsapp.com/send?phone=5511939273250&text=Olá,%20gostaria%20de%20agendar%20uma%20consulta.%20Poderia%20me%20passar%20mais%20informações?";
+
 export default function Hero() {
+
     return (
         <section className="min-h-screen bg-[#f6f0ff] flex items-center justify-center px-6 py-16 pt-32">
 
@@ -16,7 +20,7 @@ export default function Hero() {
                     </p>
 
                     <a
-                        href="https://api.whatsapp.com/send?phone=5511939273250&text=Olá,%20gostaria%20de%20agendar%20uma%20consulta.%20Poderia%20me%20passar%20mais%20informações?"
+                        href={whatsappLink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block bg-[#b388ff] hover:bg-[#9b6dff] transition text-white px-8 py-4 rounded-full"
