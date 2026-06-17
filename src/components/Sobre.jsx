@@ -6,7 +6,7 @@ export default function Sobre() {
     return (
         <section
             id="sobre"
-            className="scroll-mt-20 bg-[#f6f0ff] py-24 px-6"
+            className="scroll-mt-20 bg-[#faf7ff] py-24 px-6"
         >
 
             <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">

@@ -11,12 +11,9 @@ export default function Contato() {
 
                 <div className="text-center mb-16">
 
-                    <p className="uppercase tracking-[4px] text-sm text-[#9b7bd3] mb-4">
-                        Contato
-                    </p>
 
                     <h2 className="text-4xl md:text-5xl font-light text-[#3b2a52]">
-                        Informações de atendimento
+                        Mais Informações
                     </h2>
 
                 </div>

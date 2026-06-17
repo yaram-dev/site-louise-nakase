@@ -16,7 +16,7 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-base sm:text-lg leading-7 sm:leading-8 text-[#5c4b73] mb-8">
-                        Psicóloga com ampla experiência em psicologia clínica e reabilitação neuropsicológica. Graduada em psicologia e pós graduada em psicologia hospitalar, psico oncologia e neuropsicologia aplicada à saúde.
+                        Psicóloga com ampla experiência em psicologia clínica e reabilitação neuropsicológica. Graduada em psicologia e pós graduada em psicologia hospitalar, psico oncologia.
                     </p>
 
                     <a
