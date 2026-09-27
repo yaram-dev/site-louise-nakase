@@ -99,6 +99,7 @@ export default function Sobre() {
 
                         <ul className="space-y-3 text-[#5c4b73] leading-8">
 
+                            <li>• Psicoterapia com foco em questões emmocionais</li>
                             <li>• Lesão encefálica</li>
                             <li>• Lesão medular</li>
                             <li>• Alzheimer</li>
